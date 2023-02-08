@@ -5,7 +5,7 @@
 <body>
 <?php
 ini_set('display_errors', '1');
-require('../fuzzymf.php');
+require('fuzzymf.php');
 mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
 $c = new mysqli("localhost","root","","kesehatan");
 if(!empty($_GET['detail'])){
